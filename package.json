@@ -1,0 +1,12 @@
+{
+  "name": "saucedemo-automation",
+  "version": "1.0.0",
+  "description": "Web UI Automation Framework using Playwright for SauceDemo",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx playwright test"
+  },
+  "dependencies": {
+    "@playwright/test": "^1.47.0"
+  }
+}
