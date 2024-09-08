@@ -7,7 +7,7 @@ test.describe('Login tests', () => {
 
   test.describe.parallel('Login tests with data from JSON', () => {  // Using parallel mode
 
-
+ // tests
   test('Successful login', async ({ page }) => {
     const loginPage = new LoginPage(page);
     const inventoryPage = new InventoryPage(page);
